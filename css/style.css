@@ -214,6 +214,10 @@ footer {
 	margin-top: 80px;
 	border-top: 1px solid #e7e7e7;
 	background-color: #f6f5f6;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 social a {
@@ -495,6 +499,7 @@ elements h1 {
 }
 body{
     background-color: #f6f5f6;
+    min-height: 100vh;
 }
 
 elements small {
