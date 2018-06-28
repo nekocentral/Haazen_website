@@ -215,7 +215,7 @@ footer {
 	border-top: 1px solid #e7e7e7;
 	background-color: #f6f5f6;
     bottom: 0;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
 }
@@ -228,7 +228,6 @@ foot {
 	text-align: right;
 	padding: 20px 0px;
 	display: block;
-	border-top: 1px solid #e8e7e8;
 	font-size: 12px;
 	color: #cccccc;
 }
@@ -499,7 +498,8 @@ elements h1 {
 }
 body{
     background-color: #f6f5f6;
-    min-height: 100vh;
+	min-height: 100vh;
+	position: static;
 }
 
 elements small {
@@ -663,7 +663,7 @@ elements .clearing-thumbs img:hover {
 	}
 	footer {
 		padding-top: 0px;
-		margin-top: 30px;
+		margin-top: 0px;
 		text-align: center;
 	}
 	footer h4 {
