@@ -286,6 +286,15 @@ foot img:hover {
 .linkedin:hover {
 	background-color: #0077B5;
 }
+.github:hover {
+    background-color: #bd2c00;
+}
+.keybase:hover {
+    background-color: #f47721;
+}
+.acclaim:hover {
+    background-color: #1d699d;
+}
 
 /* work page & single work page */
 
