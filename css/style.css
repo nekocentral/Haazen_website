@@ -246,7 +246,7 @@ footer .row {
 }
 
 foot img {
-	width: 5%;
+	height: 1.5rem;
 	margin-top: -3px;
 	opacity: .4;
 }
@@ -689,7 +689,7 @@ elements .clearing-thumbs img:hover {
 		margin-top: 10px;
 	}
 	foot img {
-		width: 13%;
+		height: 1.5rem;
 	}
 	about li {
 		margin-bottom: 30px;
@@ -725,7 +725,4 @@ elements .clearing-thumbs img:hover {
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
-}
-img.apex {
-    width: 2.5%;
 }
