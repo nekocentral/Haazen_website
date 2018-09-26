@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="js/vendor/jquery.js" type="text/javascript"></script>
     <script src="js/email.js"></script>
 </head>
 <body>
@@ -83,11 +84,10 @@
 	</div>
 	</footer>
 
-  <script src="js/vendor/jquery.js" type="text/javascript"></script>
   <script src="js/foundation.min.js"></script>
     <script>
         $( document ).ready(function() {
-            var url = 'https://stats.foldingathome.org/api/donor/NekoCentral';
+            var url = 'https://cors.io/?https://stats.foldingathome.org/api/donor/NekoCentral';
             $.getJSON(url, function(data) {
                 $('#FATHuser').text("username: " + data.name);
                 $('#FATHwork').text("work units: " + data.wus);
