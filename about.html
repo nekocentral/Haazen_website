@@ -1,98 +1,204 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta lang="en-US">
-    <meta name="viewport" content="width=device-width">
-    <title>Marcel Haazen - About me</title>
-    <meta name="author" content="Marcel Haazen">
-    <meta name="description" content="########">
-    <meta name="keywords" content="Marcel Haazen, Marcel, Haazen, Resume, Certificates, Portfolio, Freelancer, Server, Server Administration, Server Setup, Web Design, About me" />
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <script src="js/vendor/jquery.js" type="text/javascript"></script>
-    <script src="js/email.js"></script>
+<title>Marcel Haazen - About</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Zeta Template Project - Contact">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+    
+    <!-- Favicone Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/flavicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/flavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/flavicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/flavicon/manifest.json">
+    <link rel="mask-icon" href="/images/flavicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/flavicon/favicon.ico">
+    <meta name="msapplication-config" content="/images/flavicon/browserconfig.xml">
+    <meta name="theme-color" content="#646464">
 </head>
+
 <body>
+
+<div class="super_container">
 	
-	<bordercolor></bordercolor>
-	<div class="row">
-		<div class="large-3 columns">
-			<logo>
-				<img src="https://res.cloudinary.com/haazen/image/upload/logo-white.png" alt="" />
-			</logo>
+	<!-- Header -->
+
+	<header class="header d-flex flex-row justify-content-end align-items-center">
+
+		<!-- Logo -->
+		<div class="logo_container mr-auto">
+			<div class="logo">
+				<a href="/"><img src="https://res.cloudinary.com/haazen/image/upload/logo-white.png" alt="Haazen"></a>
+			</div>
 		</div>
-		
-			<div class="large-9 columns">
-				<ul id="menubar">
-					<li><a href="/">Home</a></li>
-					<li><a href="about" id="active">About</a></li>
-					<li><a href="contact">Contact</a></li>
-				</ul>
-			</div><!-- 9 columns -->
-		</div><!-- row -->
-		
-	<div class="row">
-		<div class="large-3 columns">
-			<about>
-				<ul class="small-block-grid-1 large-block-grid-1">
-				  <li>
-					  <img src="https://res.cloudinary.com/haazen/image/upload/marcel_vector.png">
-					  <h5>Marcel Haazen</h5>
-                      <br>
-					  <a href="https://twitter.com/NekoCentral" class="social twitter"><i class="fab fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/in/mhaazen" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
-			<a href="https://github.com/nekocentral" class="social github"><i class="fab fa-github"></i></a>
-			<a href="https://keybase.io/nekocentral" class="social keybase"><i class="fab fa-keybase"></i></a>
-			<a href="https://www.youracclaim.com/users/marcel-haazen" class="social acclaim"><i class="fas fa-angle-double-up"></i></a>
-				  </li>
-				</ul>
-				<h4>Folding@Home Stats:</h4>
-                <ul>
-                    <li style="list-style-type: none;
-    margin: 0;
-    padding: 0;" id="FATHuser"></li>
-                    <li style="list-style-type: none;
-    margin: 0;
-    padding: 0;" id="FATHwork"></li>
-                    <li style="list-style-type: none;
-    margin: 0;
-    padding: 0;" id="FATHcredit"></li>
-                </ul>
-			</about>
+
+		<!-- Main Navigation -->
+		<nav class="main_nav justify-self-end">
+			<ul class="nav_items">
+				<li><a href="index.html"><span>home</span></a></li>
+				<li class="active"><a href="about.html"><span>About</span></a></li>
+				<!--<li><a href="blog.html"><span>blog</span></a></li>-->
+				<li><a href="contact.html"><span>contact</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<span class="hamburger_text">Menu</span>
+			<span class="hamburger_icon"></span>
 		</div>
-        <div class="large-6 columns">
-			<about>
-				<h1>About me</h1>
-				<p>I'm Marcel, a 20 year old IT Manangement Student. <br>In my free time I love to read, relax in one of the nearby forests and do some of the odd IT things like: "Programming simple application, Setting up wireless networks and setting up and managing servers for my self and other people.<br><br>Feel free to look on my GitHub for some of my projects or contact me on my about page if you have questions or want me to do things for you</p>
-                <p>I'm currently hold serveral Microsoft ceritification which are visible on my <a href="https://www.youracclaim.com/users/marcel-haazen" >Acclaim profile</a>.</p>
-                
-			</about>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="fs_menu_overlay"></div>
+	<div class="fs_menu_container">
+		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
+		<nav class="fs_menu_nav">
+			<ul class="fs_menu_list">
+				<li><a href="/"><span><span>H</span>Home</span></a></li>
+				<li><a href="about.html"><span><span>A</span>About</span></a></li>
+				<!--<li><a href="blog.html"><span><span>B</span>Blog</span></a></li>-->
+				<li><a href="contact.html"><span><span>C</span>Contact</span></a></li>
+			</ul>
+		</nav>
+		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
+			<ul class="fs_social">
+				<li><a href="https://twitter.com/nekocentral"><i class="fab fa-twitter trans_300"></i></a></li>
+				<li><a href="https://facebook.com/mhaazen"><i class="fab fa-facebook-f trans_300"></i></a></li>
+				<li><a href="https://github.com/nekocentral"><i class="fab fa-github trans_300"></i></a></li>
+				<li><a href="https://keybase.io/nekocentral"><i class="fab fa-keybase trans_300"></i></a></li>
+				<li><a href="https://www.youracclaim.com/users/marcel-haazen"><i class="fas fa-angle-double-up"></i></a></li>
+				<li><a href="https://linkedin.com/in/mhaazen"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+			</ul>
 		</div>
 	</div>
-	
-	<footer>
-	<div class="row">
-		<div class="large-12 columns">
-			<foot>
-                © 2015 - <script>document.write(new Date().getFullYear())</script> <b>Marcel Haazen</b> All Rights Reserved · Logo Design by <a href="https://www.pmlogos.com"><img src="https://res.cloudinary.com/haazen/image/upload/PMLogos.png" alt="PMLogos" /></a> · Vector Design by <a href="https://www.instagram.com/apex.predator.ig/"><img src="https://res.cloudinary.com/haazen/image/upload/apex_Logo.png" alt="Apex Predator"/></a>
-			</foot>
+
+	<!-- Home -->
+
+	<div class="home prlx_parent">
+
+		<!-- Parallax Background -->
+		<div class="home_background prlx" style="background-image:url(images/blog_background.jpg)"></div>
+		<div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="home_content">
+						<h1>About</h1>
+						<span>Learn about me</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+		<ul class="home_social">
+            <li><a href="https://twitter.com/nekocentral"><i class="fab fa-twitter trans_300"></i></a></li>
+            <li><a href="https://facebook.com/mhaazen"><i class="fab fa-facebook-f trans_300"></i></a></li>
+            <li><a href="https://github.com/nekocentral"><i class="fab fa-github trans_300"></i></a></li>
+            <li><a href="https://keybase.io/nekocentral"><i class="fab fa-keybase trans_300"></i></a></li>
+            <li><a href="https://www.youracclaim.com/users/marcel-haazen"><i class="fas fa-angle-double-up"></i></a></li>
+            <li><a href="https://linkedin.com/in/mhaazen"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+		</ul>
+	</div>	
+
+	<!-- Contact Content -->
+
+	<div class="contact_content">
+		
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-8">
+					<div class="contact_main_content">
+
+						<div class="contact_subtitle">About me</div>
+						
+						<!-- Contact Us Form -->
+						<div class="contact_form_container">
+                            <p>I'm Marcel, a 20 year old IT Manangement Student. 
+In my free time I love to read, relax in one of the nearby forests and do some of the odd IT things like: "Programming simple applications, Setting up wireless networks and setting up and managing servers for my self and other people. I also hold multiple Certifications which you can see on my <a href="https://www.youracclaim.com/users/marcel-haazen">Acclaim Profile</a>.
+</p>
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- Sidebar -->
+				<div class="col-lg-4">
+					<div class="contact_sidebar">
+						
+						<!-- Contact Info -->
+						<div class="sidebar_section">
+							<div class="sidebar_contact_info">
+								<img src="https://res.cloudinary.com/haazen/image/upload/marcel_vector.png" alt="me" width="245px">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+				<div class="col-sm-9 cr text-sm-left text-center">
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Webdesign by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Logo Design by <a style="text-decoration: none" href="https://www.pmlogos.com"><img src="https://res.cloudinary.com/haazen/image/upload/PMLogos.png"  style="filter: invert(1);" height="25px" alt="PMLogos"></a> | Vector Design by <a style="text-decoration: none;" href="https://www.instagram.com/apex.predator.ig/"><img src="https://res.cloudinary.com/haazen/image/upload/apex_Logo.png" width="35px" alt="Apex Predator" style="filter: invert(1);"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				</div>
+				<div class="col-sm-3 text-sm-right text-center">
+					<div class="footer_social_container">
+						<ul class="footer_social">
+                            <li><a href="https://twitter.com/nekocentral"><i class="fab fa-twitter trans_300"></i></a></li>
+                            <li><a href="https://facebook.com/mhaazen"><i class="fab fa-facebook-f trans_300"></i></a></li>
+                            <li><a href="https://github.com/nekocentral"><i class="fab fa-github trans_300"></i></a></li>
+                            <li><a href="https://keybase.io/nekocentral"><i class="fab fa-keybase trans_300"></i></a></li>
+                            <li><a href="https://www.youracclaim.com/users/marcel-haazen"><i class="fas fa-angle-double-up"></i></a></li>
+                            <li><a href="https://linkedin.com/in/mhaazen"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 
-  <script src="js/foundation.min.js"></script>
-    <script>
-        $( document ).ready(function() {
-            var url = 'https://cors.io/?https://stats.foldingathome.org/api/donor/NekoCentral';
-            $.getJSON(url, function(data) {
-                $('#FATHuser').text("username: " + data.name);
-                $('#FATHwork').text("work units: " + data.wus);
-                $('#FATHcredit').text("Credit: " + data.credit);});
-        });
-    </script>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/contact_custom.js"></script>
 </body>
+
 </html>
