@@ -778,8 +778,8 @@ section
 .about_content
 {
 	width: 100%;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 78px;
+	padding-bottom: 80px;
 	background: #FFFFFF;
 }
 .about_main_content
@@ -923,7 +923,7 @@ section
 }
 .footer_content
 {
-	height: 96px;
+	height: 48px;
 }
 .footer_social_container
 {
