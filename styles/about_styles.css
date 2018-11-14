@@ -725,7 +725,7 @@ section
 .home
 {
 	width: 100%;
-	height: 386px;
+	height: 193px;
 	margin-top: 110px;
 }
 .home_background
@@ -753,7 +753,7 @@ section
 }
 .home_content
 {
-	margin-top: 154px;
+	margin-top: 54px;
 }
 .home_content h1
 {
@@ -772,21 +772,21 @@ section
 }
 
 /*********************************
-7. Contact Content
+7. about Content
 *********************************/
 
-.contact_content
+.about_content
 {
 	width: 100%;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	background: #FFFFFF;
 }
-.contact_main_content
+.about_main_content
 {
 	width: 100%;
 }
-.contact_subtitle
+.about_subtitle
 {
 	font-size: 16px;
 	font-weight: 600;
@@ -796,7 +796,7 @@ section
 	padding-bottom: 11px;
 	margin-bottom: 59px;
 }
-.contact_subtitle::after
+.about_subtitle::after
 {
 	display: block;
 	position: absolute;
@@ -807,175 +807,40 @@ section
 	background: #737171;
 	content: '';
 }
-
-/*********************************
-8. Contact Form
-*********************************/
-
-.contact_form_container
+.about_container
 {
-	margin-top: 62px;
+	margin-top: 31px;
 }
-.input_field
+.period
 {
-	height: 40px;
-	font-size: 14px;
-	border: solid 1px #b7b7b7;
-	padding-left: 17px;
-	margin-bottom: 12px;
+    float: right;
+    font-size: 18px;
+    line-height: 22px;
 }
-.input_field:focus,
-.text_field:focus
+.post_title
 {
-	border: solid 2px #737171 !important;
-	box-shadow: none !important;
-	outline: none !important;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-left: 22px;
+    margin-bottom: 1px;
+    position: relative;
 }
-.text_field
+.post_subtitle
 {
-	font-size: 14px;
-	border: solid 1px #b7b7b7;
-	padding-left: 17px;
-	margin-bottom: 12px;
-}
-.contact_form_name,
-.contact_form_email
-{
-	display: inline-block;
-	width: calc(50% - 15px);
-}
-.contact_form_name
-{
-	margin-right: -4px;
-}
-.contact_form_email
-{
-	margin-left: 30px;
-}
-.contact_form_subject
-{
-	display: block;
-	width: 100%;
-}
-.contact_form_message
-{
-	display: block;
-	width: 100%;
-	margin-bottom: 0px;
-}
-.contact_submit_btn
-{
-	position: relative;
-	width: 153px;
-    height: 66px;
-    background: #737171;
-    overflow: hidden;
-    border: none;
-    font-size: 11px;
-    font-weight: 300;
-    letter-spacing: 0.6em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    cursor: pointer;
-    margin-top: 39px;
-}
-.contact_submit_btn img
-{
-    display: inline-block;
-    width: 13px !important;
-    height: 7px;
-    margin-left: 4px;
-}
-.contact_submit_btn::after
-{
-    display: block;
-    position: absolute;
-    top: -50%;
-    left: -70px;
-    width: 60px;
-    height: 200%;
-    background: rgba(255,255,255,0.1);
-    content: '';
-    -webkit-transform: rotate(12.5deg);
-    -moz-transform: rotate(12.5deg);
-    -ms-transform: rotate(12.5deg);
-    -o-transform: rotate(12.5deg);
-    transform: rotate(12.5deg);
-    -webkit-transition: all 400ms ease;
-    -moz-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    -o-transition: all 400ms ease;
-    transition: all 600ms ease;
-    z-index: 0;
-}
-.contact_submit_btn:hover::after
-{
-	left: calc(100% + 70px);
-}
-::-webkit-input-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic !important;
-	color: #6e6e6e !important;
-}
-:-moz-placeholder /* older Firefox*/
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic !important;
-	color: #6e6e6e !important;
-}
-::-moz-placeholder /* Firefox 19+ */ 
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic !important;
-	color: #6e6e6e !important;
-} 
-:-ms-input-placeholder
-{ 
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic !important;
-	color: #6e6e6e !important;
-}
-::input-placeholder
-{
-	font-size: 12px !important;
-	font-weight: 400 !important;
-	font-style: italic !important;
-	color: #6e6e6e !important;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 23px;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
 }
 
 /*********************************
-9. Google Map
+10. About Sidebar
 *********************************/
 
-#google_map
-{
-	width: 100%;
-	height: 510px;
-	margin-top: 120px;
-}
-.map_container
-{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-#map
-{
-	width: 100%;
-	height: calc(100% + 30px);
-}
-	
-
-/*********************************
-10. Contact Sidebar
-*********************************/
-
-.contact_sidebar
+.about_sidebar
 {
 	width: 100%;
 }
@@ -1048,53 +913,6 @@ section
 	background: #737171;
 	content: '';
 }
-
-/*********************************
-11. Contact
-*********************************/
-
-.contact
-{
-	padding-top: 192px;
-	padding-bottom: 120px;
-}
-.contact_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.contact_shapes
-{
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(calc(-50% - 40px));
-}
-.contact_title h2
-{
-	margin-bottom: 54px;
-}
-.contact_text p
-{
-	color: #FFFFFF;
-}
-.contact_button
-{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-}
-
 /*********************************
 12. Footer
 *********************************/
