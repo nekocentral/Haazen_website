@@ -809,7 +809,31 @@ section
 }
 .about_container
 {
-	margin-top: 62px;
+	margin-top: 31px;
+}
+.period
+{
+    float: right;
+    font-size: 18px;
+    line-height: 22px;
+}
+.post_title
+{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-left: 22px;
+    margin-bottom: 1px;
+    position: relative;
+}
+.post_subtitle
+{
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 23px;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
 }
 
 /*********************************
