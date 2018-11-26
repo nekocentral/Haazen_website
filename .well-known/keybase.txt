@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/nekocentral
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://haazen.xyz
+  * I am nekocentral (https://keybase.io/nekocentral) on keybase.
+  * I have a public key with fingerprint A547 EF22 C65C 995D FD82  958E C912 C3DF E2C4 FB9D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208abeaa48dbf326da2793ee4f3baf2aafd55213d3f5959e5beb0890d32b3194b80a",
+      "fingerprint": "a547ef22c65c995dfd82958ec912c3dfe2c4fb9d",
+      "host": "keybase.io",
+      "key_id": "c912c3dfe2c4fb9d",
+      "kid": "010103081f43cc990f0016d82c1ddc48bcdc46a81deb8cbb8581e818b01f49d3136c0a",
+      "uid": "a13d8a5b8825d7c987b8b6f6536b4619",
+      "username": "nekocentral"
+    },
+    "service": {
+      "hostname": "haazen.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1543260702,
+  "expire_in": 157680000,
+  "prev": "49545e09465f8c428b1817f799734edf2ec892142ae39c2b30f4832e11688513",
+  "seqno": 44,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMN5AnicbVJtUFRVGF4gyrCAEaJCFLqZlSDe7z13HUgiBSkQaQyNHdZ77j13d4d1
+l3YXZCVaJz/YaRoJhWlgQIiBaG1Mgw0KQWEXZYTxo6wZghoVQSGCZAqG77rL6L/O
+mTlnznue53mf95y3+1k/RYDP1TWe20PdC9U+fV0VeYqsxZT1hRg0iTZMVYjloJUN
+GURksWpy9CKmwnCCxAEPEc/TQIQSRbIiTyo5CiFaoiAvkTwviQxDEpRISQzHcIiB
+COKAw0WKhBTB0RDgPBaDSXqjFplzzXqjVZblGVqJJJIUWEbgOEaUREByDEACR5AC
+JUqIFGgJcqJM1JksXoZsDvIWFKs3yTH5oFmx9z/4x77lSeGAkGhKkFPgEo4TrJxF
+IERRoAEU5JXlASEiCAQIAQMIBAgAcZnBiRRBscKK77wVOV6uD/AMBIBkRKXAASUE
+kJVYhmIhzRKcF2hBZiN/AMloI8oxCchoNfMGrCgGky/y9QLyvq23mEcgHc8fQsbY
+AtshmZxrNllNgsngjVutuRaVl2e15XqBBxHUPJLQQL1RlB9SZuQjs0VvMmIqQkYK
+Vr1Xk2Bo+YNwJU7GYKggV29GGr0XwShZgMvDmwfly5I0x9AMwjmaZSQg0CSABCCU
+kpLjlBSNRIlEAuBIgiZ5RHGC/I+4RAOKRATBAsAQFOYt6gOjCVPRtOyT18qaFr3W
+yFvzzAgrcnepn1D4BCie9Pf1dpgi4Ongx313Pzpo6cWU1gdnZ4LfKM+6jblL73W/
+0B6b/E+hJiqeLSkPurT24rLtzL5G+8y9Lz5Wh0ckuHePhlQkPajLakmuCT83VdZZ
+EJq9LTqpqHzw+lhn26/Xli9fCBjK3jr6aUtgcnb76bmXfNPStlVmjEPHN3fmojrs
+zNFK1YarR6uWKp+5ERKhS3Uq348P+mivZ4tmk53/KwNh5n8Dn48Xwo69NdJbNe6Z
+CbUltYxOVT/lfO7k3p5ZP9fwZXvDad/NQekhtb178NrWU/OezOWMK6nKi7NvX/pw
+zZeTYoMjc0dcn3qi3pX2c9Pd/oTtkSQbWBU5/Gfeoj2yt+sVg3rsuPPH9NJ5MW/d
+Od23ifjD4Z+Ed2/enz7hiKtvPEl0vNPxyR3/4Jd/3zD58Pw1T4k23PFe6JG68CYt
+d+CHyZtxm4ZHjl+o2X9212eZUSPq1LZVXGXM9fli35Qpa0XxeMmJsj9udLZrI7mG
+IWyx+Jbrt89X5Rfc3XF45/nVr7W5DdN7mr52NLnmByY2vp6xfiLR2QYVW+rVC7MR
+wx2TtTqicjrfP50DjRn768PRV9bDaRMH+/f9sr2Hivh73fce25vNIJpmwlxboxxL
+Tt+UtVfGTg0kO19NnTuS0FrWXL3xFnA3B4bZ8wZcVX3+/GCiuae/Lu7wYE+O4Uz0
+YkwY5dmpGymtUcBO98Lmcr9du7/rWv0fz+TNqA==
+=RCpn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nekocentral
+
+==================================================================
