@@ -39,6 +39,12 @@
 </head>
 
 <body>
+	<script>function calcAge(dateString) {
+		var birthday = new Date(dateString);
+		var ageDifMs = Date.now() - birthday.getTime();
+		var ageDate = new Date(ageDifMs); // miliseconds from epoch
+		return Math.abs(ageDate.getFullYear() - 1997);
+	  }</script>
 
 <div class="super_container">
 	
@@ -136,8 +142,8 @@
 						
 						<!-- About Me -->
 						<div class="about_container">
-                            <p>I'm Marcel, a 23 year old IT Manangement Student. 
-                                In my spare time I love to read, relax in one of the nearby forests and do some of the odd IT jobs around me. I also hold several certifications as you can see on my <a href="https://www.youracclaim.com/users/marcel-haazen">Acclaim Profile</a>.
+                            <p>I'm Marcel, a <script>document.write(calcAge(27-10-1997));</script> year old IT Manangement Student. 
+                                In my spare time I love to read, relax in one of the nearby forests and do some of the odd IT jobs around me. I also hold a couple certifications which you can see on my <a href="https://www.youracclaim.com/users/marcel-haazen">Acclaim Profile</a>.
                             </p>
                             <p>The current webdesign has been made by the great people at <a href="https://colorlib.com/">https://colorlib.com/</a> which released the design under CC BY 3.0.
                                 My logo got designed by the great people at <a style="text-decoration: none" href="https://www.pmlogos.com"><img src="https://res.cloudinary.com/haazen/image/upload/PMLogos.png"  height="25px" alt="PMLogos"></a> which did a great job.
@@ -214,7 +220,23 @@
 						<div class="about_container">
 							<div class="about_post">
                                 <div class="about_post_header">
-                                <div class="period">2019 - Present</div>
+                                <div class="period">2023 - Present</div>
+								<div class="post_title">Conclusion Mission Critical</div>
+								<div class="post_subtitle">Junior Mission Critical Engineer</div>
+                                </div>
+                            </div>
+                            <hr>
+							<div class="about_post">
+                                <div class="about_post_header">
+                                <div class="period">2022 - 2023</div>
+								<div class="post_title">Orange Buisness Services (Basefarm)</div>
+								<div class="post_subtitle">Linux System Engineer</div>
+                                </div>
+                            </div>
+                            <hr>
+							<div class="about_post">
+                                <div class="about_post_header">
+                                <div class="period">2019 - 2022</div>
 								<div class="post_title">Simac IT NL</div>
 								<div class="post_subtitle">Trainee Unix Engineer</div>
                                 </div>
@@ -283,7 +305,7 @@
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
 <script src="plugins/greensock/TweenMax.min.js"></script>
@@ -295,6 +317,7 @@
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
+
 </body>
 
 </html>
